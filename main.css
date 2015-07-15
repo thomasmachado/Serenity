@@ -77,7 +77,7 @@ main {
     position:relative;
     display:block;
     height:50px;
-    width:280px;
+    width:300px;
     background-color:#cedce9;
     margin:auto;
     margin-top:-120px;
@@ -120,7 +120,7 @@ main {
     position:relative;
     display:block;
     height:50px;
-    width:280px;
+    width:300px;
     background-color:#c0cfb7;
     margin:auto;
     margin-top:-120px;
@@ -145,8 +145,24 @@ main {
     background-color:white;
     height:420px;
     padding-top:80px;
-    background-image:url('#');
+    background-image:url('assets/socialbg.jpg');
     background-size:contain;
+}
+
+#socialButton {
+    position:relative;
+    display:block;
+    height:50px;
+    width:300px;
+    background-color:#bbb;
+    margin:30px auto;
+    padding-top:10px;
+    box-shadow: 0px 4px 10px black;
+    border-radius:3px;
+    text-align:center;
+    font-size:30px;
+    font-family:Papyrus;
+    color:#222222;
 }
 
 #mapTime {
@@ -161,13 +177,14 @@ main {
 }
 
 #map {
+    position:relative;
     display:block;
     width:320px;
     height:auto;
     border-radius:10px;
     box-shadow: 0px 4px 10px black;
     margin-right:auto;
-    margin-left:110px;
+    margin-left:100px;
 }
 
 #mapTime > h3 {
@@ -177,15 +194,31 @@ main {
     height:220px;
     width:350px;
     margin:auto;
-    margin-top:-280px;
-    margin-right:60px;
+    margin-top:-250px;
+    margin-right:80px;
     margin-left:auto;
+    padding-top:30px;
+    text-align:center;
+    line-height:30px;
+    color:white;
+}
+
+#stopBy {
+    position:relative;
+    display:block;
+    height:50px;
+    width:300px;
+    background-color:#f0e2db;
+    margin-top:-300px;
+    margin-left: 492px;
+    margin-right:auto;
     padding-top:10px;
     box-shadow: 0px 4px 10px black;
     border-radius:3px;
     text-align:center;
-    line-height:30px;
-    background-color:#f0e2db;
+    font-size:30px;
+    font-family:Papyrus;
+    color:#222222;
 }
 
 #fb {
