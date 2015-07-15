@@ -209,6 +209,16 @@ main {
     border-radius:10px;
     box-shadow: 0px 4px 10px black;
     margin-right:auto;
+    margin-left:0px;
+}
+
+#mapTime > a {
+    position:relative;
+    display:block;
+    width:320px;
+    height:auto;
+    border-radius:10px;
+    margin-right:auto;
     margin-left:100px;
 }
 
