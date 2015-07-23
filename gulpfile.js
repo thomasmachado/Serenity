@@ -1,0 +1,22 @@
+/////////////////////////////////
+// Required
+/////////////////////////////////
+
+var gulp = require('gulp'),
+    uglify = require('gulp-uglify');
+
+/////////////////////////////////
+// Scripts Task
+/////////////////////////////////
+
+gulp.task('scripts', function(){
+    gulp.src('sass/main.sass')
+    .pipe(uglify())
+    .pipe(gulp.dest('style.css'));
+});
+
+/////////////////////////////////
+// Default Task
+/////////////////////////////////
+
+gulp.task('default', ['scripts']);
